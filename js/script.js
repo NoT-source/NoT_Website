@@ -57,8 +57,7 @@ function introAboutLogoTransition() {
 
 function checkDarkMode() {
     if (
-        localStorage.getItem("tourism_website_darkmode") !== null &&
-        localStorage.getItem("tourism_website_darkmode") === "true"
+        localStorage.getItem("tourism_website_darkmode") === null
     ) {
         document.body.classList.add("dark");
         checkbox.checked = true;
