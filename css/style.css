@@ -47,7 +47,7 @@ span {
 }
 
 /* .active {
-  color: #fc036b;
+  color: #3494cc;
   border-radius: 20px;
   background: whitesmoke;
   font-weight: bold;
@@ -148,7 +148,7 @@ header {
   text-align: center;
   z-index: 1;
   padding: 4rem;
-  margin-bottom: 150px;
+  margin-bottom: 0px;
 }
 
 .header-content a {
@@ -162,7 +162,7 @@ header {
 .line {
   width: 150px;
   height: 4px;
-  background: #fc036b;
+  background: #3494cc;
   margin: 10px auto;
   border-radius: 5px;
 }
@@ -178,7 +178,7 @@ header {
   font-size: var(--fs-links-btns);
   font-weight: 700;
   padding: 13px 50px;
-  background: #fc036b;
+  background: #3494cc;
   border-radius: 30px;
   color: whitesmoke;
 }
@@ -407,7 +407,7 @@ section {
 #about_us p::first-letter {
   padding-left: 47px;
   font-size: 55px;
-  color: #fc036b;
+  color: #3494cc;
 }
 
 /* Contributors */
@@ -438,7 +438,7 @@ section {
   justify-content: center;
 }
 .concard:hover {
-  background-color: #fb036b;
+  background-color: #146ea4;
   border-bottom: 5px solid #fff;
   color: #fff;
   transform: translateY(-7.5px);
@@ -501,7 +501,7 @@ form {
 .cbox-line {
   width: 20%;
   height: 0.2em;
-  background-color: #fb036b;
+  background-color: #3494cc;
   margin-bottom: 3em;
   margin-top: 1em;
 }
@@ -518,19 +518,19 @@ form {
   padding: 1em;
   margin-bottom: 2em;
   padding-left: 2em;
-  border: 0.1em solid #fc036b;
-  background-color: #fc036b;
+  border: 0.1em solid #3494cc;
+  background-color: #3494cc;
   color: white;
   display: flex;
   border-radius: 2em;
   align-items: center;
-  border: #fc036b 0.1em solid;
+  border: #3494cc 0.1em solid;
   font-size: 1em;
 }
 
 .c_boxx a:hover {
   background-color: white;
-  color: #fc036b;
+  color: #3494cc;
   transition: all 0.5s ease;
 }
 
@@ -556,10 +556,10 @@ label {
 }
 
 input[type="submit"] {
-  background-color: #fc036b;
+  background-color: #3494cc;
   color: whitesmoke;
   padding: 12px 50px;
-  border: 2px solid #fc036b;
+  border: 2px solid #3494cc;
   border-radius: 100vmax;
   cursor: pointer;
   font-family: var(--ff-montserrat);
@@ -568,7 +568,7 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
   background-color: whitesmoke;
-  color: #fc036b;
+  color: #3494cc;
 }
 
 .cform {
@@ -597,7 +597,7 @@ input[type="submit"]:hover {
   width: 20%;
   display: block;
   height: 1em;
-  border-bottom: 3px solid #fc036b;
+  border-bottom: 3px solid #3494cc;
 }
 
 .ccol-left {
@@ -629,7 +629,7 @@ input[type="submit"]:hover {
 
 .crow-s {
   margin: 1em;
-  color: #fc036b;
+  color: #3494cc;
 }
 
 /* footer */
@@ -673,7 +673,7 @@ input[type="submit"]:hover {
 }
 
 .social a:hover {
-  background-color: #fc036b;
+  background-color: #3494cc;
 }
 
 .social i {
@@ -692,26 +692,26 @@ img:hover {
 }
 
 .cir_border:hover{
-    color: #fc036b
+    color: #3494cc
 }
 
 
 .active {
   border: 2px solid whitesmoke;
   border-radius: 20px;
-  color: #fc036b;
+  color: #3494cc;
   cursor: pointer;
 }
 
 .ctn:hover {
   background: whitesmoke;
-  color: #fc036b;
+  color: #3494cc;
   box-shadow: 2px 2px 5px #00000056;
   cursor: pointer;
 }
 
 .nav-links .ctn:hover a {
-  color: #fc036b;
+  color: #3494cc;
 }
 
 body {
@@ -814,11 +814,11 @@ body.dark{
 	
 	&:hover::after {
 		transform: rotate(45deg);
-		border-color:#fc036b;
+		border-color:#3494cc;
 		height: 120%;
 	}
 	&:hover::before {
-		border-color:#fc036b;
+		border-color:#3494cc;
 		transform: scale(.8);
 		
 	}
@@ -836,11 +836,11 @@ body.dark{
   }
 
   &:hover::after {
-    border-color: #fc036b;
+    border-color: #3494cc;
   }
 
   &:hover::before {
-    border-color: #fc036b;
+    border-color: #3494cc;
   }
 }
 
@@ -852,12 +852,13 @@ body.dark{
   font-size: 2em;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(45deg, #fc036b, #fff, #41031d);
+  background: linear-gradient(45deg, #fff, #fff, #fff);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 8s linear infinite;
+  animation: animate 18s linear infinite;
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  filter: drop-shadow(2px 1px 1px #3a0d0d) drop-shadow(6px 5px 10px #fff);
 }
 
 @keyframes animate {
